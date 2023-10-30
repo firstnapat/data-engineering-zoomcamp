@@ -23,7 +23,8 @@ For this course, we'll use a free version (upto EUR 300 credits).
 5. Set environment variable to point to your downloaded GCP keys:
    ```shell
    export GOOGLE_APPLICATION_CREDENTIALS="<path/to/your/service-account-authkeys>.json"
-   
+   export GOOGLE_APPLICATION_CREDENTIALS="/Users/napatsakornpianchana/Documents/project/DataTalksClub/data-engineering-zoomcamp/week_1_basics_n_setup/1_terraform_gcp/dtc-de-terraform-382616-5d308d2532cf.json"
+   dtc-de-terraform-382616
    # Refresh token/session, and verify authentication
    gcloud auth application-default login
    ```
